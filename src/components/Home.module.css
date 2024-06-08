@@ -1,0 +1,77 @@
+
+*{
+   color: #063f7b;
+}
+.container {
+   padding: 20px;
+   font-family: Arial, sans-serif;
+ }
+ 
+ .header {
+   text-transform: uppercase;
+   margin-bottom: 20px;
+   
+ }
+ 
+ .form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 20px;
+ }
+ 
+ .inputField,
+ .selectField {
+   padding: 8px;
+   width: 100%;
+   max-width: 300px;
+ }
+ 
+ .button {
+   padding: 10px 15px;
+   background-color:#063f7b;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .button:disabled {
+   background-color: #cccccc;
+ }
+ 
+ .errorMessage {
+   color: red;
+ }
+ 
+ .employeeList {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ .employeeItem {
+   padding: 10px;
+   margin: 10px 0;
+   background-color: #f8f9fa;
+   border: 1px solid #ddd;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .employeeDetails {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+ }
+ 
+ .actionButtons {
+   display: flex;
+   gap: 5px;
+ }
+ 
+ .imageMain {
+   height: 87vh;
+   width: 99vw;
+   border-radius: 0;
+   filter: blur(2px);
+ }
